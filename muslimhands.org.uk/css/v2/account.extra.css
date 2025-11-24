@@ -1,0 +1,223 @@
+/* ACCOUNT - INTERNAL / EXTERNAL FORMS */
+
+.has-error .help-block, 
+.has-error .control-label, 
+.has-error .radio, 
+.has-error .checkbox, 
+.has-error .radio-inline, 
+.has-error .checkbox-inline, 
+.has-error.radio label, 
+.has-error.checkbox label, 
+.has-error.radio-inline label, 
+.has-error.checkbox-inline label {
+    color: #a94442;
+}
+
+.has-error .__selector {
+    background-color: #fff1f1;
+    border: 1px solid #a94442;
+}
+
+.model-error {
+    display: none; 
+    margin-top: 10px;
+    font-size: .9em;
+    color: #a94442;
+}
+
+.model-error:before {
+    font-family: 'muslimhands';
+    speak: none;
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    vertical-align: top;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\e603";
+    display: inline-block;
+    margin-right: 15px;
+    margin-top: -5px;
+    vertical-align: middle;
+    color: #a94442;
+}
+
+.model-error-bold {
+    font-weight: bold; 
+}
+
+/* ACCOUNT - NAVIGATION */
+
+.__logout-form {
+    display: inline-block;
+}
+
+._an-user-dropdown .dropdown-menu li button {
+    border: 0;
+    background-color: #eee;
+    text-align: left;
+    padding: 3px 20px;
+}
+
+.an-user-dropdown .dropdown-menu li button:hover {
+    background-color:#f5f5f5;
+}
+
+/* ACCOUNT - DASHBOARD - PAYMENT PANEL */
+
+._a-donation-feed ._adf-meta li {
+    margin-bottom: 5px;
+}
+
+._adf-donation-type-single {
+    background-color: #66bb6a !important;
+}
+
+._adf-donation-type-regular {
+    background-color: #1397b5 !important;
+}
+
+._adf-donation-type-regular-failed {
+    background-color: #990000 !important;
+}
+
+._adf-donation-recipt {
+    font-size: 0.875em;
+}
+
+/* ACCOUNT - DONATIONS */
+
+._adf-date {
+    border-right: 1px solid #ddd;
+}
+
+._adt-items hr {
+    border-top: 1px solid #f3f3f3;
+    margin: 15px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+._adf-feedback a {
+    color:#66bb6a;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+._adf-btn .btn {
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+._adf-btn .btn:hover {
+    color: #fff;
+}
+
+._adf-payment {
+    margin: 10px;
+}
+
+._adf-donation-line-header {
+    padding-bottom: 10px;
+    border-bottom: 2px dotted #ddd;
+}
+
+._adf-donation-line {
+    padding: 8px 0;
+}
+
+._adf-donation-line:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
+/* ACCOUNT - DASHBOARD - VIDEO PANEL */
+
+.nested-video {
+    max-height: 295px;
+}
+.nested-video ._hero-content {
+    background-color: #fff;
+} 
+
+/* ACCOUNT - MY DETAILS - EMAIL / TELEPHONE PANEL */
+
+._primarycard-data,
+._primaryphone-data,
+._primaryemail-data {
+    padding: 1em;
+}
+
+._primarycard-card,
+._primaryphone-phone,
+._primaryemail-email {
+    margin-bottom: 1em;
+    display: inline-block;
+}
+
+._awb-cover{
+    position: relative;
+}
+
+._awb-cover-white {
+    z-index: 998;
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, .5);
+}
+
+._primarycard-remove span,
+._primaryphone-remove span,
+._primaryemail-remove span {
+    top: 2px;
+}
+
+._primarycard-remove,
+._primaryphone-remove,
+._primaryemail-remove {
+    padding: 0.1em 0.2em 0 0.1em;
+    background-color:#990000;
+}
+
+._primarycard-remove:hover
+._primaryphone-remove:hover,
+._primaryemail-remove:hover {
+    background-color:#CC0000;
+}
+
+/* ORPHAN - SEND GIFT FORM */
+
+.__sendgift {
+    margin-top: 30px;
+}
+
+/* ACCOUNT - PAYMENT DETAILS - ADD NEW CARD  */
+
+.__primarycard-form {
+    padding: 1em 1.5em;
+}
+
+/* SOCIAL LOGIN BUTTONS */
+
+._alb-social-login li button {
+    background: transparent;
+    border: 0;
+    padding: 0;
+}
+
+/* NAVIGATION - FEEDBACK REPORTS */
+
+._sl-feedback {
+    padding-top: 60px;
+}
+
+._top-arrow, ._top-dots {
+    top: 10px !important;
+    bottom: auto !important;
+}
