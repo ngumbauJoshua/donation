@@ -19,6 +19,7 @@ EXCLUDE_NAMES=(
   "README.md"
   ".gitignore"
   "LICENSE"
+  "public"
 )
 
 # File type groups
