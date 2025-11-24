@@ -1,0 +1,15 @@
+{
+  "name": "donation-static-organizer",
+  "version": "1.0.0",
+  "description": "Convenience scripts to reorganize a static-site dump into a public/ layout and preview it locally.",
+  "private": true,
+  "scripts": {
+    "organize": "bash ./scripts/organize.sh",
+    "serve": "npx serve public -l 5000",
+    "start": "npm run serve"
+  },
+  "devDependencies": {
+    "serve": "^14.2.0"
+  },
+  "license": "MIT"
+}
